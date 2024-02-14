@@ -1,0 +1,625 @@
+@charset "UTF-8";
+
+/* Small Device - Tablet */
+@media screen and (min-width: 768px) {
+    .container-md {
+        padding: 0 10%;
+    }
+
+    .logo {
+        width: 500px;
+        margin-left: 10%;
+    }
+
+    /* Menu */
+    .btn-menu {
+        margin-right: 40px;
+    }
+
+    /* Missao */
+    .list {
+        padding: 20px 40px;
+    }
+
+    .img-transporte {
+        height: 400px;
+    }
+
+    .icone {
+        width: 20%;
+    }
+
+
+    /* Card */
+    .card-mobile a img {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .card-mobile div.tablet {
+        width: 100%;
+    }
+
+    .card-mobile a img.e {
+        width: 50%;
+        float: left;
+    }
+
+    .card-mobile a img.d {
+        width: 50%;
+        float: right;
+    }
+
+    /* Blog */
+    section#blog img {
+        height: 350px;
+    }
+
+    .btn-blog {
+        width: 45%;
+    }
+
+    /* Footer */
+    .logo-rodape {
+        width: 363px;
+        display: block;
+        margin: 10px auto;
+        padding-top: 10px;
+    }
+
+    .copyright {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+/* Medium Device - Tablet/Desktop */
+@media screen and (min-width: 960px) {
+
+    /* Header */
+    .logo {
+        width: 500px;
+        margin-left: 15%;
+    }
+
+    /* Menu */
+    .btn-menu {
+        margin-right: 80px;
+    }
+
+    /* Empresa */
+    .img-empresa,
+    .img-transporte {
+        height: 420px;
+    }
+
+    .icone {
+        width: 93px;
+    }
+
+    /* Card */
+    .card .q {
+        width: 45%;
+        display: inline-flex;
+        margin: 25px 2%;
+    }
+
+    .card .line {
+        width: 80%;
+    }
+
+    .card a {
+        font-size: 2em;
+    }
+}
+
+/* Large Device - Wide Scree n*/
+@media screen and (min-width: 1280px) {
+    .container-ld {
+        padding: 0 13%;
+    }
+
+    /* Header */
+    .logo {
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    /* Menu */
+    .btn-menu {
+        display: none;
+    }
+
+    .btn-close {
+        display: none;
+    }
+
+    .menu {
+        width: 56%;
+        float: right;
+    }
+
+    .menu {
+        background-color: var(--branco);
+        display: block !important;
+        position: static;
+        padding-top: 20px;
+    }
+
+    .menu ul {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 1% 2.2%;
+    }
+
+    .menu ul {
+        list-style-type: none;
+    }
+
+    .menu ul li a {
+        padding: 1px;
+        color: var(--preto);
+        text-decoration: none;
+        font-size: 0.8em;
+    }
+
+    nav.menu ul li ul.dropdown li {
+        display: block;
+    }
+
+    nav.menu ul li ul.dropdown {
+        border: 1px solid black;
+        font-size: 0.8em;
+        position: absolute;
+        z-index: 7;
+        display: none;
+        top: 55px;
+    }
+
+    nav.menu ul li a:hover {
+        color: var(--vermelho);
+    }
+
+    nav.menu ul li:hover ul.dropdown {
+        display: block;
+        border-top: 3px solid var(--vermelho);
+        text-align: left;
+        background-color: var(--branco);
+        width: 16%;
+        padding: 2px 5px;
+        font-size: 1em;
+    }
+
+    /* Banner */
+    .content {
+        height: 600px;
+    }
+
+    .txt-banner {
+        width: 500px;
+    }
+
+    .slides img.cima {
+        display: block;
+        width: 20px;
+        height: 220px;
+        top: 280px;
+        left: 5%;
+        z-index: 2;
+    }
+
+    .slides h1.cima {
+        top: 280px;
+        font-size: 36px;
+    }
+
+    .slides p.cima {
+        top: 440px;
+    }
+
+    .navigation {
+        left: 22%;
+        top: 500px;
+    }
+
+    .bar {
+        width: 25px;
+        height: 8px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    /* Empresa */
+    .full {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .esq {
+        width: 50%;
+        float: left;
+    }
+
+    .dir {
+        width: 50%;
+        float: right;
+    }
+
+    .img-empresa {
+        margin-top: 100px;
+        height: 470px;
+    }
+
+    span.texto-sombra {
+        font-size: 6em;
+        text-align: left;
+    }
+
+    section#empresa h1 {
+        font-size: 3em;
+        text-align: left;
+    }
+
+    section#empresa h1::after {
+        width: 70%;
+        margin: 15px 0;
+    }
+
+    .texto p {
+        padding: 10px 40px 10px 0;
+        text-align: left;
+    }
+
+    /* Missao */
+    section#missao h2 {
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    section#missao p {
+        text-align: left;
+        padding: 5px 100px 0 0;
+    }
+
+    .list {
+        color: var(--vermelho);
+        padding: 10px;
+    }
+
+    .list li {
+        padding: 1px;
+    }
+
+    .icone {
+        width: 80px;
+        margin: 0;
+    }
+
+    .esq-icone {
+        width: 18%;
+        float: left;
+    }
+
+    .dir-icone {
+        width: 82%;
+        float: right;
+    }
+
+    /* Agendamento */
+    span.texto-sombra-2 {
+        font-size: 6em;
+    }
+
+    section#agenciamento h1 {
+        font-size: 2.6em;
+    }
+
+    section#agenciamento h1::after {
+        width: 60%;
+    }
+
+    section#agenciamento p {
+        text-align: center;
+        padding: 10px 0;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    /* Card */
+    .card-mobile {
+        display: none;
+    }
+
+    .card-desktop {
+        display: block;
+    }
+
+    .card-desktop img {
+        width: 21%;
+        height: 20%;
+        margin: 25px 13px;
+    }
+
+    .card-area {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Cotacao */
+    section.banner {
+        height: 800px;
+    }
+
+    section#cotacao h1 {
+        width: 480px;
+        margin-top: 100px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    section#cotacao p {
+        width: 480px;
+        font-size: 1em;
+        padding: 1px 0;
+    }
+
+    section#cotacao .botao {
+        padding: 10px 30px;
+    }
+
+    /* Blog */
+    .titulo-blog {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .sub-titulo {
+        text-align: center;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .area-blog {
+        padding-left: 30px;
+    }
+
+    .area-blog h2 {
+        text-align: left;
+        font-size: 1.8em;
+        padding: 5px 0;
+    }
+
+    .area-blog p {
+        font-size: 1em;
+        text-align: justify;
+        padding: 10px 0;
+    }
+
+    .btn-blog {
+        float: left;
+        padding: 10px;
+        width: 20%;
+    }
+
+    section#blog img {
+        padding-right: 30px;
+    }
+
+    .space-blog {
+        margin-bottom: 50px;
+    }
+
+    /* Footer */
+    .logo-rodape {
+        width: 320px;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    /*footer img{
+        width: 360px; 
+        margin: 0;
+    }*/
+
+    .rodape-img img {
+        width: 110px;
+        display: inline-block;
+        padding: 2px;
+        margin-top: 80px;
+    }
+
+    .frase-rodape,
+    .contato h3,
+    .contato a,
+    .endereco h3,
+    .endereco a,
+    .mapa-site h3,
+    .mapa-site ul li {
+        text-align: left;
+    }
+
+    .banner-rodape {
+        height: 600px;
+    }
+
+    .contato a {
+        font-size: 14px;
+    }
+
+    .endereco h3 {
+        margin-top: 20px;
+    }
+
+    .mapa-site h3 {
+        margin-bottom: 5px;
+    }
+
+    .mapa-site ul {
+        columns: 2;
+    }
+
+    .mapa-site ul li {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .form {
+        margin-left: 200px;
+    }
+
+    .form .space {
+        margin: 10px 0;
+    }
+
+    .form h2 {
+        text-align: left;
+        color: var(--branco);
+    }
+
+    .form p {
+        text-align: left;
+        color: var(--branco);
+        font-size: 1em;
+    }
+
+    .form input#nome,
+    textarea#mensagem {
+        width: 100%;
+    }
+
+    .form input {
+        padding: 12px;
+        font-size: 1em;
+    }
+
+    input#email {
+        width: 60%;
+        float: left;
+    }
+
+    input#telefone {
+        width: 35%;
+        float: right;
+    }
+
+    textarea#mensagem {
+        padding: 5px;
+    }
+
+    textarea#mensagem::placeholder {
+        font-size: 1.2em;
+    }
+
+    input[type="submit"] {
+        padding: 5px;
+        width: 70px;
+        font-size: 14px;
+        float: right;
+        cursor: pointer;
+    }
+
+    i.so {
+        font-size: 2em;
+        margin-left: 5px;
+    }
+
+    .social {
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .copyright {
+        text-align: right;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .menu ul li a {
+        font-size: 1em;
+    }
+
+    .slides img.cima {
+        left: 8%;
+    }
+
+    .icone {
+        width: 100px;
+        margin: 0;
+    }
+
+    section#missao p {
+        padding: 5px 225px 0 0;
+    }
+
+    .list {
+        padding: 1px 150px 1px 0;
+    }
+
+    .rodape-img img {
+        width: 150px;
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (min-width: 2560px) {
+    .logo {
+        width: 500px;
+        margin-left: 15%;
+    }
+
+    .esq-icone {
+        width: 14%;
+    }
+
+    .dir-icone {
+        width: 86%;
+    }
+
+    section#missao p {
+        padding: 5px 225px 0 0;
+    }
+
+    .list {
+        padding: 1px 300px 1px 0;
+    }
+
+    .card-desktop {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    .container-xd {
+        padding: 0 20%;
+    }
+
+    .logo {
+        margin-left: 10%;
+    }
+
+    .slides img.cima {
+        left: 15%;
+    }
+
+    .esq-icone {
+        width: 10%;
+    }
+
+    .dir-icone {
+        width: 90%;
+    }
+
+    .copyright {
+        text-align: right;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 14px;
+    }
+}
